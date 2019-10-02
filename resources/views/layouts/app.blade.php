@@ -51,9 +51,9 @@
                                 
                             @guest
                           <div class="buttons">
-                            <a class="button" href="{{ route('login') }}">{{ __('Masuk') }}</a>
+                            <a class="button" href="{{ route('login') }}">{{ __('Log in') }}</a>
                           @if(Route::has('register')) 
-                           <a class="button is-success" href="{{ route('register') }}">{{ __('Daftar') }}</a>
+                           <a class="button is-success" href="{{ route('register') }}">{{ __('Register') }}</a>
                           </div>
                         </div>
                         @endif
@@ -76,8 +76,6 @@
                                         <a class="navbar-item">
                                                 Change Password
                                               </a>
-                                             
-
                                   <a class="navbar-item" href="{{ route('logout') }}"
                                   onclick="event.preventDefault();
                                                 document.getElementById('logout-form').submit();">
