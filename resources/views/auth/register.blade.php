@@ -7,10 +7,10 @@
             
             <div class="columns is-centered">
               <div class="column is-5-tablet is-4-desktop is-3-widescreen">
-                    <div class="title has-text-centered"> <h3>Register</h3> </div>
+                  
                     <form method="POST" action="{{ route('register') }}" class="box">
                         @csrf
-
+                        <div class="title "> <h3>Register</h3> </div>
                         <div class="field">
                             <label for="name" class="label">{{ __('Name') }}</label>
 

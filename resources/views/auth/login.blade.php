@@ -8,10 +8,10 @@
             <div class="columns is-centered">
 
               <div class="column is-5-tablet is-4-desktop is-3-widescreen">
-                  <div class="title has-text-centered"> <h3>Login</h3> </div>
+              
                     <form method="POST" action="{{ route('login') }}" class="box">
                             @csrf
-    
+                            <div class="title "> <h3>Login</h3> </div>
                             <div class="field">
                                 <label for="email" class="label">{{ __('E-Mail Address') }}</label>
     
